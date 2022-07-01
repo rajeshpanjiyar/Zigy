@@ -1,5 +1,5 @@
 # Zigy
-A project which creates user, stores user data in MongoDB database, fetch data and display. Delete user feature actually deletes selected user from database as well as from frontend.
+A project which creates user, stores user data in MongoDB database, fetches data and display. Delete user feature actually deletes selected user from database as well as from frontend.
 
 Sample: 
 
