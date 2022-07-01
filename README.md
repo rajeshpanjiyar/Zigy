@@ -16,4 +16,7 @@ Sample:
 <img width="1430" alt="Screenshot 2022-07-01 at 11 19 03 AM" src="https://user-images.githubusercontent.com/78999467/176832169-248d8690-8f19-4d02-9383-3d25bb338ac4.png">
 
 - Example 2
-![Uploading Screenshot 2022-07-01 at 11.19.22 AM.png…]()
+
+<img width="1420" alt="Screenshot 2022-07-01 at 11 19 22 AM" src="https://user-images.githubusercontent.com/78999467/176833512-868ff492-aba8-40bf-9be2-12aef7b52705.png">
+
+<img width="1432" alt="Screenshot 2022-07-01 at 11 19 31 AM" src="https://user-images.githubusercontent.com/78999467/176833550-0c4dee58-69fc-459f-8a2b-c7e039bb1dda.png">
