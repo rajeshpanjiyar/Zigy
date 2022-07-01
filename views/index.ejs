@@ -1,0 +1,42 @@
+<%- include("header") -%>
+
+
+  <div class="container">
+    <h1>Add User</h1>
+      <form method = "post" action = "/api/add">
+         <input type = "text"  style = "width: 30vw; " required name = "name" placeholder="Full Name"> 
+         <input class = "mx-2" type = "email" required style = "width: 30vw; " name = "email" placeholder="Email"> 
+          <button class = "btn btn-primary mx-2">Add</button>
+      </form>
+  </div>
+
+  <!-- <form method = "get" action = "/api/show" >
+    <button>Show</button>
+  </form> -->
+
+<div>
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th style = "font-size: 3vmin;"  scope="col">#</th>
+      <th style = "font-size: 3vmin;"  scope="col">Name</th>
+      <th style = "font-size: 3vmin;"  scope="col">Email</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% for(var i = 0; i < name.length; i++){ %>
+      <tr>
+        <th scope="row"><%= (i+1) %></th>
+        <form method = "post" action = "/api/del" >
+        <td><input type = "text" class = "inv" readonly style = "width: 30vw; font-size: 2vmin; " name = "name" value = "<%= name[i] %>"></td>
+        <td><input type = "text" class = "inv" readonly style = "width: 30vw; font-size: 2vmin;" name = "email" value = "<%= email[i] %>" ></td>
+        <td><button class = "btn btn-danger mx-2" style = "width: 10vw; font-size: 2vmin;">Delete</button></td>
+      </form>
+      </tr>
+    <% } %>
+  </tbody>
+</table>
+</div>
+
+<%- include("footer") -%>

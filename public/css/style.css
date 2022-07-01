@@ -1,0 +1,14 @@
+.container{
+    text-align: center;
+    margin-top: 20px;
+    padding:10px;
+}
+
+button{
+    border-radius: 5px !important;
+    margin: 4px !important;
+}
+
+.table{
+    margin:20px;
+}
